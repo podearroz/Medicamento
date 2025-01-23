@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_medicamento/create_users/presentation/create_users_page.dart';
 import 'package:flutter_application_medicamento/features/login/presentation/login_page.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const LoginPage(),
+      home: const CreateUserPage(),
     );
   }
 }
