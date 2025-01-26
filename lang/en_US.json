@@ -1,0 +1,11 @@
+{
+    "login": "Login",
+    "login_email": "Email",
+    "login_empty_email_error": "Please enter your email",
+    "login_invalid_email_error": "Please enter a valid email",
+    "login_password": "Password",
+    "login_empty_password_error": "Please enter your password",
+    "login_password_length_error": "Password must be at least 6 characters long",
+    "login_submit": "Login",
+    "login_snackbar_feedback": "Logging in..."
+}

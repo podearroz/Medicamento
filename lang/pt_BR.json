@@ -1,0 +1,11 @@
+{
+    "login": "Entrar",
+    "login_email": "E-mail",
+    "login_empty_email_error": "Por favor, insira seu e-mail",
+    "login_invalid_email_error": "Por favor, insira um e-mail válido",
+    "login_password": "Senha",
+    "login_empty_password_error": "Por favor, insira sua senha",
+    "login_password_length_error": "A senha deve ter pelo menos 6 caracteres",
+    "login_submit": "Entrar",
+    "login_snackbar_feedback": "Entrando..."
+}
