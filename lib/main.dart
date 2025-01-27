@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_medicamento/create_users/presentation/create_users_page.dart';
 import 'package:flutter_application_medicamento/features/login/presentation/login_page.dart';
+import 'package:flutter_application_medicamento/medication_registration/presentation/Medication_Registration_Page';
+import 'package:timezone/data/latest.dart' as tz;
+import 'package:timezone/timezone.dart' as tz;
 
 void main() {
+  tz.initializeTimeZones();
   runApp(const MyApp());
 }
 
@@ -33,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const CreateUserPage(),
+      home: const MedicationRegistrationPage(),
     );
   }
 }
