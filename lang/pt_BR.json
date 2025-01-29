@@ -7,5 +7,9 @@
     "login_empty_password_error": "Por favor, insira sua senha",
     "login_password_length_error": "A senha deve ter pelo menos 6 caracteres",
     "login_submit": "Entrar",
-    "login_snackbar_feedback": "Entrando..."
+    "login_snackbar_feedback": "Entrando...",
+    "login_register_button": "Cadastre-se",
+    "login_google": "Entrar com Google",
+
+    "validation_required": "O campo é obrigatório"
 }

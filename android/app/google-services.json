@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "661408636446",
+    "project_id": "medicamentos-pos",
+    "storage_bucket": "medicamentos-pos.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661408636446:android:7b0ddc456bc9e5c00a580f",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_medicamento"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMqiLY08ZYI3zZC_KyQ0NCRea_jwqfo78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661408636446:android:7f4af9ccc6cf5f600a580f",
+        "android_client_info": {
+          "package_name": "com.medicamentos.pos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMqiLY08ZYI3zZC_KyQ0NCRea_jwqfo78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

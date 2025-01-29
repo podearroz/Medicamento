@@ -7,5 +7,9 @@
     "login_empty_password_error": "Please enter your password",
     "login_password_length_error": "Password must be at least 6 characters long",
     "login_submit": "Login",
-    "login_snackbar_feedback": "Logging in..."
+    "login_snackbar_feedback": "Logging in...",
+    "login_register_button": "Sign Up",
+    "login_google": "Login with Google",
+
+    "validation_required": "This field is required"
 }
