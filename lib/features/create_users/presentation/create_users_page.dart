@@ -66,10 +66,12 @@ class _CreateUserPageState extends State<CreateUserPage> {
                 onPressed: () {
                   if (_formKey.currentState!.validate()) {
                     // Handle user creation logic here
-                    createUserController.createUser(UserEntity(
-                        name: _usernameController.text,
-                        email: _emailController.text,
-                        password: _passwordController.text));
+                    createUserController.createUser(
+                        context,
+                        UserEntity(
+                            name: _usernameController.text,
+                            email: _emailController.text,
+                            password: _passwordController.text));
                   }
                 },
                 child: const Text('Create User'),

@@ -8,6 +8,8 @@ import 'package:flutter_application_medicamento/core/essentials/ui/app_theme.dar
 import 'package:flutter_application_medicamento/core/navigation/application_route.dart';
 import 'package:flutter_application_medicamento/features/create_users/presentation/create_users_page.dart';
 import 'package:flutter_application_medicamento/features/login/presentation/login_page.dart';
+import 'package:flutter_application_medicamento/features/medication_registration/presentation/medication_list_page.dart';
+import 'package:flutter_application_medicamento/features/medication_registration/presentation/medication_registration_page.dart';
 import 'package:intl/intl.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
@@ -39,6 +41,10 @@ class MedicamentoApp extends StatelessWidget {
   static final Map<String, WidgetBuilder> routes = {
     ApplicationRoute.login: (BuildContext context) => const LoginPage(),
     ApplicationRoute.createUser: (BuildContext context) => CreateUserPage(),
+    ApplicationRoute.registerMedication: (BuildContext context) =>
+        const MedicationRegistrationPage(),
+    ApplicationRoute.medicationList: (BuildContext context) =>
+        MedicationListPage(),
   };
 
   @override

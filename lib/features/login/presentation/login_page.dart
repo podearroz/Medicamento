@@ -35,7 +35,9 @@ class _LoginPageState extends State<LoginPage> {
       data: theme,
       child: Scaffold(
         appBar: PrimaryAppBar(
-            title: localizationHelper.getString("login"), theme: theme),
+            title: localizationHelper.getString("login"),
+            theme: theme,
+            leading: null),
         body: Padding(
           padding: const EdgeInsets.all(16.0),
           child: Form(
@@ -63,9 +65,9 @@ class _LoginPageState extends State<LoginPage> {
                     validator: (value) => validator.validatePassword(value)),
                 SizedBox(height: Dimens.spacingLarge),
                 PrimaryButton(
-                  onPressed: () {
+                  onPressed: () async {
                     if (_formKey.currentState!.validate()) {
-                      loginController.loginWithEmailAndPassword(
+                      await loginController.loginWithEmailAndPassword(context,
                           _emailController.text, _passwordController.text);
                     }
                   },
@@ -82,7 +84,7 @@ class _LoginPageState extends State<LoginPage> {
                       width: 24, height: 24),
                   label: Text(localizationHelper.getString("login_google")),
                   onPressed: () {
-                    loginController.loginWithGoogle();
+                    loginController.loginWithGoogle(context);
                   },
                   style: ElevatedButton.styleFrom(
                     foregroundColor: Colors.black,

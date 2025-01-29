@@ -25,7 +25,10 @@ AppBar PrimaryAppBar(
         Builder(builder: (context) {
           if (Navigator.canPop(context)) {
             return IconButton(
-              icon: Icon(Icons.arrow_back),
+              icon: Icon(
+                Icons.arrow_back,
+                color: Colors.white,
+              ),
               onPressed: () {
                 if (onBack != null) {
                   onBack();
